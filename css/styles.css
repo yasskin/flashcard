@@ -14,3 +14,19 @@
 #hide-card-1 {
   display: block;
 }
+
+#show-card-2 {
+  display: none;
+}
+
+#hide-card-2 {
+  display: block;
+}
+
+#show-card-3 {
+  display: none;
+}
+
+#hide-card-3 {
+  display: block;
+}
