@@ -1,0 +1,16 @@
+/* .show-card {
+  display: block;
+}
+
+.hide-card {
+  display: none;
+}
+*/
+
+#show-card-1 {
+  display: none;
+}
+
+#hide-card-1 {
+  display: block;
+}

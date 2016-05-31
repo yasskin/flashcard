@@ -1,25 +1,66 @@
 <!-- Flashcard site
 Make a webpage that is a flashcard site for learning JS & jQuery. On your site, a user should be able to click on a term or concept to see the definition appear. When they click on the definition, the original term should appear again. Here is a list of (some) terms and concepts that you have learned so far:
 
-JavaScript (JS)
-Operators
-Variables
-Variable naming conventions
-Functions
-Methods
-Arguments
-Parameters
-Return
-Chaining methods
-Strings
-Booleans
-Undefined
-NaN
-Escape
-Alert
-Comments
-jQuery
-Attributes
 Remember to start this project in its own directory, make it a Git repository and make frequent commits as you are building your site. Use Bootstrap as well.
 
 Feel free to add to this site later to help you study and remember key ideas of JavaScript and jQuery. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Flashcard Website Using Bootstrap 101 Template</title>
+
+  </head>
+  <body>
+    <div class="container">
+      <h1>Flashcards!</h1>
+      <h2>Click a term to show the definition. Hide again to quiz yourself.</h2>
+
+      <div id="hide-card-1">
+        <p class="clickable">JavaScript (JS)</p>
+      </div>
+
+      <div id="show-card-1">
+        <p class="clickable">JavaScript (JS) is: an object-oriented computer programming language commonly used to create interactive effects within web browsers.</p>
+      </div>
+
+
+    </div>
+
+
+      <ul>
+        <li>Operators</li>
+        <li>Variables</li>
+        <li>Variable naming conventions</li>
+        <li>Functions</li>
+        <li>Methods</li>
+        <li>Arguments</li>
+        <li>Parameters</li>
+        <li>Return</li>
+        <li>Chaining methods</li>
+        <li>Strings</li>
+        <li>Booleans</li>
+        <li>Undefined</li>
+        <li>NaN</li>
+        <li>Escape</li>
+        <li>Alert</li>
+        <li>Comments</li>
+        <li>jQuery</li>
+        <li>Attributes</li>
+      </ul>
+
+
+
+    </div>
+  </body>
+</html>
